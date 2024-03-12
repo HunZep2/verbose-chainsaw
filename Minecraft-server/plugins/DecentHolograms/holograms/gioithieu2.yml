@@ -1,0 +1,18 @@
+location: world:-2.434:101.000:-30.527
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&eWelcome&7:%essentials_nickname% to server A2'
+    height: 0.3
+  - content: 'Ấn TAB để xem thêm thông tin'
+    height: 0.3
+  - content: 'Hướng dẫn sử dụng lệnh trong server⇨'
+    height: 0.3
+  - content: '&uNHÌN CÁI CHÓA GÌ! ⇨'
+    height: 0.3
+  actions: {}

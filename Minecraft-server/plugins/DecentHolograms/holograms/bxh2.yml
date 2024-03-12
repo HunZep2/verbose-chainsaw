@@ -1,0 +1,24 @@
+location: world:14.995:105.000:3.486
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&l TOP SHARK VNĐ'
+    height: 0.3
+  - content: 1.&u&n%ajlb_lb_vault_eco_balance_1_alltime_name% - &u&n%ajlb_lb_vault_eco_balance_1_alltime_value% VNĐ
+    height: 0.3
+  - content: 2.&#FFFF55%ajlb_lb_vault_eco_balance_2_alltime_name% - &n%ajlb_lb_vault_eco_balance_2_alltime_value% VNĐ
+    height: 0.3
+  - content: 3.&b%ajlb_lb_vault_eco_balance_3_alltime_name% - &n%ajlb_lb_vault_eco_balance_3_alltime_value% VNĐ
+    height: 0.3
+  - content: 4.%ajlb_lb_vault_eco_balance_4_alltime_name% - %ajlb_lb_vault_eco_balance_4_alltime_value% VNĐ
+    height: 0.3
+  - content: 5.%ajlb_lb_vault_eco_balance_5_alltime_name% - %ajlb_lb_vault_eco_balance_5_alltime_value% VNĐ
+    height: 0.3
+  - content: '&c&l 1,000.ZZ = 1K'
+    height: 0.3
+  actions: {}

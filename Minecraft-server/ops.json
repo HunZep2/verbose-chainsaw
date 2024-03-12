@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "a138b827-dc5b-3184-9f78-9a582c6d45d0",
+    "name": "HunZep",
+    "level": 3,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6b3e5ee8-05c3-30a3-b7d7-1434fdeccbef",
+    "name": "botruong",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "51d2bc03-0078-3fec-98a9-4b160b2996fc",
+    "name": "charactermanhwa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

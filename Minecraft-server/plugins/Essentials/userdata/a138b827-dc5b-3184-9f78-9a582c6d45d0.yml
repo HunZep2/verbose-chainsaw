@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709915247728
+  login: 1709912937657
+money: '5675.12'
+last-account-name: HunZep
+logoutlocation:
+  world: 99b529c6-cdc4-4d2e-bf40-f0ef7f6a7c6b
+  world-name: world
+  x: -111.49998456685977
+  y: 121.0
+  z: 26.714195519732666
+  yaw: -13.30908203125
+  pitch: -6.289108753204346
+nickname: §x§b§c§f§f§d§8A§x§b§6§f§3§d§fD§x§b§0§e§6§e§6M§x§a§a§d§a§e§dI§x§a§4§c§e§f§4N§x§9§e§c§1§f§bx§x§a§4§a§a§e§dH§x§b§6§8§8§c§9u§x§c§8§6§6§a§5n§x§d§b§4§4§8§0Z§x§e§d§2§2§5§ce§x§f§f§0§0§3§8p
+lastlocation:
+  world: 99b529c6-cdc4-4d2e-bf40-f0ef7f6a7c6b
+  world-name: world
+  x: -91.09288480788372
+  y: 131.73827668730482
+  z: -5.153536651538926
+  yaw: 68.74868774414062
+  pitch: 32.68107986450195

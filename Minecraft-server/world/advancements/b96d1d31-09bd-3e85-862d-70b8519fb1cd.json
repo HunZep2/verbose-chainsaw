@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lush_caves": "2023-04-20 16:11:02 +0700",
+      "minecraft:meadow": "2023-04-20 14:51:50 +0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

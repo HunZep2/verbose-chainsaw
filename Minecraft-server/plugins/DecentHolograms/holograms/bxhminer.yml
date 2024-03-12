@@ -1,0 +1,22 @@
+location: world:9.503:104.000:1.507
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&l TOP MINER'
+    height: 0.3
+  - content: 1.&u&n%ajlb_lb_statistic_mine_block:ancient_debris_1_alltime_name% - &u&n%ajlb_lb_statistic_mine_block:ancient_debris_1_alltime_value% NETHERIT
+    height: 0.3
+  - content: 2.&#FFFF55%ajlb_lb_statistic_mine_block:ancient_debris_2_alltime_name% - &n%ajlb_lb_statistic_mine_block:ancient_debris_2_alltime_value%
+    height: 0.3
+  - content: 3.&b%ajlb_lb_statistic_mine_block:ancient_debris_3_alltime_name% - &n%ajlb_lb_statistic_mine_block:ancient_debris_3_alltime_value%
+    height: 0.3
+  - content: 4.%ajlb_lb_statistic_mine_block:ancient_debris_4_alltime_name% - %ajlb_lb_statistic_mine_block:ancient_debris_4_alltime_value%
+    height: 0.3
+  - content: 5.%ajlb_lb_statistic_mine_block:ancient_debris_5_alltime_name% - %ajlb_lb_statistic_mine_block:ancient_debris_5_alltime_value%
+    height: 0.3
+  actions: {}

@@ -1,0 +1,8 @@
+data:
+  session: 5
+  dice1: 5
+  dice2: 1
+  dice3: 4
+  result: XIU
+  xiuPlayers:
+    HunZep: 2000

@@ -1,0 +1,22 @@
+location: world:5.521:105.000:3.486
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&l TOP EXP LVL'
+    height: 0.3
+  - content: 1.&u&n%ajlb_lb_player_level_1_alltime_name% - &u&n%ajlb_lb_player_level_1_alltime_value% EXP
+    height: 0.3
+  - content: 2.&#FFFF55%ajlb_lb_player_level_2_alltime_name% - &n%ajlb_lb_player_level_2_alltime_value% EXP
+    height: 0.3
+  - content: 3.&b%ajlb_lb_player_level_3_alltime_name% - &n%ajlb_lb_player_level_3_alltime_value% EXP
+    height: 0.3
+  - content: 4.%ajlb_lb_player_level_4_alltime_name% - %ajlb_lb_player_level_4_alltime_value% EXP
+    height: 0.3
+  - content: 5.%ajlb_lb_player_level_5_alltime_name% - %ajlb_lb_player_level_5_alltime_value% EXP
+    height: 0.3
+  actions: {}

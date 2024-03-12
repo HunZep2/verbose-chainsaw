@@ -1,0 +1,125 @@
+#		                             © Made by Cuidabrutos | Holograms™
+# #!						      ___________________________________
+# #!							       ________________________
+# NOT COPY!!!!! REALLY!! NO COPIES!!! O ERES RATERO???
+
+# License informlation:
+# ✲ You're allowed to change this file for yourself
+# ✲ You aren't allowed to re-publish this file
+# ✲ You aren't allowed to sell this file
+# ✲ You aren't allowed to remove the copyright text
+# ✲ You aren't allowed to copy this license information-text
+
+
+
+
+
+
+
+
+
+# COMMAND /HG OR /HOLO OR /HOLOGRAMS!! NOT COPY!!
+# TE REPORTARE SI COPIAS SE COMO TRABAJA MI SKRIPT Y SOY EL PRIMERO QUE HACE QUE ESTA FORMA!!
+# CONTACTAME SI NESESITAS ALGO! Skype: cuidabrutos01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+options:
+    Prefix: &7&l[&6&lHolograms&7&l] &2&l
+on load:
+    send "{@Prefix} &7&l- &2&lEnabled" to console
+on unload:
+    send "{@Prefix} &7&l- &4&lDisabled" to console    
+command /hologram [<text>] [<number>] [<text>]:
+    aliases: /hg, /holo
+    trigger:
+        if arg 1 is not set:
+            message "{@Prefix} &2&lVersion 1.0"
+            message " &5&l By Cuidabrutos"
+            message " &7&l/hg create <ID> <Text> - &5&l Create One Hologram!"
+            message " &7&l/hg list - &5&l List Of Holograms!"
+            message " &7&l/hg addline <ID> <Text> - &5&l Add Line To Hologram!"
+            message " &7&l/hg delete <ID> - &5&l Delete On Hologram!"
+            message " &7&l/hg Remove <ID> - &5&l Remove On Hologram!"
+            message " &7&l/hg createanimation <ID> <Text> - &5&l Create On Animation!"
+                
+             
+        if arg 1 is "create":
+            if arg 2 is set:
+                if arg 3 is set:
+                    if {id.%arg 2%} is not set:
+                        set {X.%arg 2%} to x-coordinate of player's location
+                        set {Y.%arg 2%} to y-coordinate of player's location
+                        set {z.%arg 2%} to z-coordinate of player's location
+                        set {loc.%arg 2%} to location of player
+                        set {hg.%arg 2%} to "%arg 3%"
+                        set {id.%arg 2%} to arg 2
+                        add arg 2 to {listofholos::*}
+                        replace every "&" in {hg.%arg 2%} with "§"
+                        make player execute command "/summon ArmorStand ~ ~ ~ {NoGravity:1,Invisible:1,CustomNameVisible:1,CustomName:%{hg.%arg 2%}%}"
+                        message "{@Prefix} &4&lHologram &2&l%{hg.%arg 2%}% &4&lCreated! With ID &2&l%arg 2%"
+                    else:
+                        message "{@Prefix} &4&lID Alredy Exist!"
+                else:
+                    message "{@Prefix} &4&lName Of Hologram?"
+            else:
+                message "{@Prefix} &4&lID?"
+        if arg 1 is "addline":
+            if {id.%arg 2%} is set:
+                if arg 3 is set:
+                    add 1 to {lines.%arg 2%}
+                    set {hg%{lines.%arg 2%}%.%arg 2%} to arg 3
+                    replace every "&" in {hg%{lines.%arg 2%}%.%arg 2%} with "§"
+                    set {_y} to {Y.%arg 2%}
+                    loop {lines.%arg 2%} times:
+                        remove 0.2 from {_y}
+                    make player execute command "/summon ArmorStand %{X.%arg 2%}% %{_y}% %{Z.%arg 2%}% {NoGravity:1,Invisible:1,CustomNameVisible:1,CustomName:%{hg%{lines.%arg 2%}%.%arg 2%}%}"   
+                else:
+                    message "{@Prefix} Text To Add?" 
+            else:
+                message "{@Prefix} Not Exist The Hologram!" 
+            
+        if arg 1 is "list":
+            message "{@Prefix} &2&lList Of Holograms:"
+            message "&b&l-----------------------------"
+            loop {listofholos::*}:
+                message "&4&lID: &5&l%loop-value% &4&lHologram: %{hg.%loop-value%}%"
+            message "&b&l-----------------------------"
+        if arg 1 is "delete" or "remove":
+            if {id.%arg 2%} is set:
+                remove arg 2 from {listofholos::*}
+                make player execute command "/tp @e[type=ArmorStand,r=2] 0 0 0"
+                loop 40 times:
+                    message " "
+                message "{@Prefix} Deleted %{hg.%arg 2%}%"
+                delete {id.%arg 2%}
+                delete {hg.%arg 2%}
+                delete {loc.%arg 2%}
+            else:
+                message "{@Prefix} Not Exist The Hologram!"
+        else:
+            message "{@Prefix} &4&lCommand Not Founded!"
+
+                    
+                    
+                    

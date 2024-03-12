@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1693903965545
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709917643797
+  login: 1709913350858
+money: '36211.76'
+last-account-name: charactermanhwa
+logoutlocation:
+  world: 99b529c6-cdc4-4d2e-bf40-f0ef7f6a7c6b
+  world-name: world
+  x: -256.448213487931
+  y: 156.6998149760955
+  z: -181.96871400414082
+  yaw: 165.9677276611328
+  pitch: 36.750179290771484
+lastlocation:
+  world: 99b529c6-cdc4-4d2e-bf40-f0ef7f6a7c6b
+  world-name: world
+  x: -157.8722384002344
+  y: 137.99489985948622
+  z: -24.3652358982894
+  yaw: -73.14932250976562
+  pitch: 15.300041198730469

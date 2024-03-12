@@ -1,0 +1,36 @@
+location: world:31.494:108.000:-61.463
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&l BẢNG HƯỚNG DẪN CÁC LỆNH TRONG SERVER:'
+    height: 0.3
+  - content: '&eWelcome&7:%essentials_nickname% to server A2'
+    height: 0.3
+  - content: '&aMINI GAME: &f/taixiu /taixiu luatchoi. VD: /taixiu cuoc xiu(1)/tai(2) số tiền'
+    height: 0.3
+  - content: '+Khi cộng tổng các nút của 3 xúc xắc từ 4 - 10 thì sẽ là Xỉu & 11 - 17 Tài '
+    height: 0.3
+  - content: 'NẾU 3 hoặc 18 thì Nhà cái ăn (Xỉu và Tài đều thua)'
+    height: 0.3
+  - content: '+Số tiền cược từ 2000VNĐ -> 1000000VNĐ Phí: 20% và cược trước khi tới 15s cuối!'
+    height: 0.3
+  - content: '+Khi thắng bạn sẽ nhận được gấp đôi số tiền đã đặt (1 ăn 1)'
+    height: 0.3
+  - content: '&aNICKNAME &f(Đổi màu tên trong CHAT)'
+    height: 0.3
+  - content: 'Dùng lệnh:/nickname * (nhập dòng code màu ở dưới)'
+    height: 0.3
+  - content: '&4Ghi GG: &6(Mã màu minecarft) &fhoặc dùng link code đổi màu RGB &6https://www.birdflop.com/resources/rgb/'
+    height: 0.3
+  - content: '&aANVIL COLORS &f(Đổi màu tên trang bị ở ĐE khi ép đồ)'
+    height: 0.3
+  - content: '&c+VD Ghi trong ĐE Thay X = &(là kí tự màu): &6-X4XlKiếm X2XmKim X5XnCương X0XoMàu-'
+    height: 0.3
+  - content: '&aRANK &f(Chưa Update) Dùng Tiền để mua'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,28 @@
+location: world:-2.523:101.000:-19.499
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&l⇦BXH hoạt động như thế nào ?'
+    height: 0.3
+  - content: '&#55FFFFTOP HUNTER: &fThống kê số sinh vật'
+    height: 0.3
+  - content: '&#FF5555Mob đã kill (kể cả dân làng)'
+    height: 0.3
+  - content: '&#55FFFFTOP SHARK VNĐ: &fTop số tiền hiện có'
+    height: 0.3
+  - content: '&#FF5555Kiếm được qua TAIXIU, kill quái, đào khoáng sản,...'
+    height: 0.3
+  - content: '&#55FFFFTOP EXP LVL: &fLevel của bản thân'
+    height: 0.3
+  - content: '&#55FFFFTOP DAME: &fTổng sát thương gây ra trong server'
+    height: 0.3
+  - content: '&#55FFFFTOP MINER: &fSố Block Netherit đào được'
+    height: 0.3
+  - content: '&#FF5555(Ăn trộm, ké, nhặt sẽ không tính)'
+    height: 0.3
+  actions: {}

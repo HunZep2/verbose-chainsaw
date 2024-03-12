@@ -1,0 +1,10 @@
+data:
+  session: 6
+  dice1: 1
+  dice2: 6
+  dice3: 6
+  result: TAI
+  taiPlayers:
+    charactermanhwa: 2000
+  xiuPlayers:
+    HunZep: 2000

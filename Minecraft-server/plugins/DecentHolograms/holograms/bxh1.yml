@@ -1,0 +1,22 @@
+location: world:24.462:105.000:3.495
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&lTOP HUNTER'
+    height: 0.3
+  - content: 1.&u&n%ajlb_lb_statistic_mob_kills_1_alltime_name% - Kill &u&n%ajlb_lb_statistic_mob_kills_1_alltime_value% Mob *_*
+    height: 0.3
+  - content: 2.&#FFFF55%ajlb_lb_statistic_mob_kills_2_alltime_name% - &n%ajlb_lb_statistic_mob_kills_2_alltime_value%
+    height: 0.3
+  - content: 3.&b%ajlb_lb_statistic_mob_kills_3_alltime_name% - &n%ajlb_lb_statistic_mob_kills_3_alltime_value%
+    height: 0.3
+  - content: 4.%ajlb_lb_statistic_mob_kills_4_alltime_name% - %ajlb_lb_statistic_mob_kills_4_alltime_value%
+    height: 0.3
+  - content: 5.%ajlb_lb_statistic_mob_kills_5_alltime_name% - %ajlb_lb_statistic_mob_kills_5_alltime_value%
+    height: 0.3
+  actions: {}
